@@ -6,4 +6,8 @@ import java.util.List;
 
 public interface EmployeeRepository {
     List<Employee> getEmployeeList();
+
+    String insertEmployee(Employee employee);
+
+    Employee getEmployee(Integer id);
 }
